@@ -12,6 +12,9 @@ Once you have your environment setup and you have the project cloned to your mac
 ### Run the app
 iOS:
 ```
+cd ios
+pod install
+cd ..
 yarn ios
 ```
 
@@ -19,3 +22,5 @@ Android:
 ```
 yarn android
 ```
+
+Credits to: https://github.com/teamairship/rn_pokedex
